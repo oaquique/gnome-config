@@ -1,0 +1,210 @@
+[org/gnome/control-center]
+last-panel='user-accounts'
+window-state=(980, 640, true)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/f37/default/f37-01-day.png'
+picture-uri-dark='file:///usr/share/backgrounds/f37/default/f37-02-night.png'
+primary-color='#51a2da'
+secondary-color='#294172'
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+clock-format='12h'
+clock-show-weekday=false
+color-scheme='prefer-dark'
+font-antialiasing='rgba'
+font-hinting='slight'
+icon-theme='Arc-ICONS'
+monospace-font-name='Victor Mono 10'
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-software', 'org-gnome-nautilus', 'org-freedesktop-problems-applet', 'org-gnome-terminal', 'org-gnome-extensions-desktop']
+
+[org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-extensions-desktop]
+application-id='org.gnome.Extensions.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/privacy]
+report-technical-problems=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/f37/default/f37-01-day.png'
+primary-color='#51a2da'
+secondary-color='#294172'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/wm/keybindings]
+maximize=['']
+unmaximize=['']
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:close'
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=['']
+toggle-tiled-right=['']
+
+[org/gnome/mutter/wayland/keybindings]
+restore-shortcuts=['']
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-last-coordinates=(47.636100719942405, -122.0425)
+
+[org/gnome/shell]
+app-picker-layout=[{'org.fedoraproject.MediaWriter.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'libreoffice-calc.desktop': <{'position': <5>}>, 'org.gnome.Photos.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'libreoffice-impress.desktop': <{'position': <9>}>, 'simple-scan.desktop': <{'position': <10>}>, 'org.gnome.Settings.desktop': <{'position': <11>}>, 'gnome-system-monitor.desktop': <{'position': <12>}>, 'org.gnome.Boxes.desktop': <{'position': <13>}>, 'libreoffice-writer.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'org.gnome.TextEditor.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'org.gnome.Tour.desktop': <{'position': <18>}>, 'org.gnome.Cheese.desktop': <{'position': <19>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <20>}>}]
+disable-user-extensions=false
+disabled-extensions=['window-list@gnome-shell-extensions.gcampax.github.com', 'material-shell@papyelgringo']
+enabled-extensions=['background-logo@fedorahosted.org', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'material-you-theme@asubbiah.com', 'BingWallpaper@ineffable-gmail.com']
+favorite-apps=['firefox.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.Terminal.desktop']
+welcome-dialog-last-shown-version='42.0'
+
+[org/gnome/shell/extensions/bingwallpaper]
+bing-json="[{\"startdate\":\"20220917\",\"fullstartdate\":\"202209170700\",\"enddate\":\"20220918\",\"url\":\"/th?id=OHR.Wellenflug_EN-US7380614960_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.Wellenflug_EN-US7380614960\",\"copyright\":\"Oktoberfest visitors in Munich, Germany (© Karl-Josef Hildenbrand/Getty Images)\",\"copyrightlink\":\"https://www.bing.com/search?q=oktoberfest+munich+germany+history&form=hpcapt&filters=HpDate%3a%2220220917_0700%22\",\"title\":\"Swinging over Munich\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20220917_Wellenflug%22&FORM=HPQUIZ\",\"wp\":false,\"hsh\":\"d09fecb3b5ae296cc09aac5e9da7e140\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20220927\",\"fullstartdate\":\"202209270700\",\"enddate\":\"20220928\",\"url\":\"/th?id=OHR.YellowstoneUGB_EN-US7573964019_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.YellowstoneUGB_EN-US7573964019\",\"copyright\":\"Upper Geyser Basin in Yellowstone National Park, Wyoming (© Ray Urner/Tandem Stills + Motion)\",\"copyrightlink\":\"https://www.bing.com/search?q=geothermal+areas+of+yellowstone&form=hpcapt&filters=HpDate%3a%2220220927_0700%22\",\"title\":\"Where fire and water meet\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20220927_YellowstoneUGB%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"46e957301b90c5933da632acafc36897\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221006\",\"fullstartdate\":\"202210060700\",\"enddate\":\"20221007\",\"url\":\"/th?id=OHR.BayofBiscay_EN-US8933430968_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.BayofBiscay_EN-US8933430968\",\"copyright\":\"Basque Coast Geopark in the Bay of Biscay near Bilbao, Spain (© Olimpio Fantuz/eStock Photo)\",\"copyrightlink\":\"https://www.bing.com/search?q=basque+coast+geopark+diversity&form=hpcapt&filters=HpDate%3a%2220221006_0700%22\",\"title\":\"Dragon tails trail to the sea\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221006_BayofBiscay%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"456319f1c027cbf82751d101f1c77b4e\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221008\",\"fullstartdate\":\"202210080700\",\"enddate\":\"20221009\",\"url\":\"/th?id=OHR.GlassOctopus_EN-US6394802515_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.GlassOctopus_EN-US6394802515\",\"copyright\":\"Glass octopus in the Atlantic Ocean off Cabo Verde (© Solvin Zankl/Minden Pictures)\",\"copyrightlink\":\"https://www.bing.com/search?q=world+octopus+day&form=hpcapt&filters=HpDate%3a%2220221008_0700%22\",\"title\":\"See-through cephalopod\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221008_GlassOctopus%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"ec4d8775543a7d2294335826aa340a01\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221017\",\"fullstartdate\":\"202210170700\",\"enddate\":\"20221018\",\"url\":\"/th?id=OHR.SwedenOwl_EN-US8107135630_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.SwedenOwl_EN-US8107135630\",\"copyright\":\"Long-eared owl in the Bohemian-Moravian Highlands of the Czech Republic (© Ondrej Prosicky/Alamy)\",\"copyrightlink\":\"https://www.bing.com/search?q=Long-eared+owl&form=hpcapt&filters=HpDate%3a%2220221017_0700%22\",\"title\":\"Widespread and long-eared\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221017_SwedenOwl%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"8a295c4d096b994e92f550750d32d261\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221020\",\"fullstartdate\":\"202210200700\",\"enddate\":\"20221021\",\"url\":\"/th?id=OHR.SlothDay_EN-US8418438094_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.SlothDay_EN-US8418438094\",\"copyright\":\"Hoffmann's two-toed sloth mother and young, Puerto Viejo de Talamanca, Costa Rica (© Suzi Eszterhas/Minden Pictures)\",\"copyrightlink\":\"https://www.bing.com/search?q=Hoffmann%27s+two-toed+sloth&FORM=hpcapt&filters=HpDate%3a%2220221020_0700%22\",\"title\":\"Hangin' around\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221020_SlothDay%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"de92f2a67ce628894002215b23da50ce\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221025\",\"fullstartdate\":\"202210250700\",\"enddate\":\"20221026\",\"url\":\"/th?id=OHR.OrcusMouth_EN-US5010597701_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.OrcusMouth_EN-US5010597701\",\"copyright\":\"Orcus sculpture in the Gardens of Bomarzo in Bomarzo, Italy (© Scott Wilson/Alamy)\",\"copyrightlink\":\"https://www.bing.com/search?q=gardens+of+bomarzo+park+of+the+monsters+history&FORM=hpcapt&filters=HpDate%3a%2220221025_0700%22\",\"title\":\"Park of the Monsters\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221025_OrcusMouth%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"7a4ea0a9bfd8f77a70f822cc47f2afcb\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221026\",\"fullstartdate\":\"202210260700\",\"enddate\":\"20221027\",\"url\":\"/th?id=OHR.BrockenSpecter_EN-US5247366251_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.BrockenSpecter_EN-US5247366251\",\"copyright\":\"Brocken spectre in Central Balkan National Park, Bulgaria (© Maya Karkalicheva/Getty Images)\",\"copyrightlink\":\"https://www.bing.com/search?q=brocken+spectre&form=hpcapt&filters=HpDate%3a%2220221026_0700%22\",\"title\":\"A ghost on the mountain\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221026_BrockenSpecter%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"15f55b00e0b5db258f90efb5f8c826e3\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221027\",\"fullstartdate\":\"202210270700\",\"enddate\":\"20221028\",\"url\":\"/th?id=OHR.BridgeofSighs_EN-US5335369208_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.BridgeofSighs_EN-US5335369208\",\"copyright\":\"Bridge of Sighs in Venice, Italy (© Doug Pearson/Alamy)\",\"copyrightlink\":\"https://www.bing.com/search?q=bridge+of+sighs+history&form=hpcapt&filters=HpDate%3a%2220221027_0700%22\",\"title\":\"A kiss and a sigh\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221027_BridgeofSighs%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"c8a0d8496542d5214fe064b6dc6f225e\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221028\",\"fullstartdate\":\"202210280700\",\"enddate\":\"20221029\",\"url\":\"/th?id=OHR.FrankensteinFriday_EN-US3119113489_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.FrankensteinFriday_EN-US3119113489\",\"copyright\":\"Stormy sky over Lake Geneva in Lausanne, Switzerland (© Suradech Singhanat/Shutterstock)\",\"copyrightlink\":\"https://www.bing.com/search?q=Lake+Geneva+switzerland+scenery&form=hpcapt&filters=HpDate%3a%2220221028_0700%22\",\"title\":\"On a dark and stormy night...\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221028_FrankensteinFriday%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"d0ed89548e0ae7784ac58cdf364c6b84\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221029\",\"fullstartdate\":\"202210290700\",\"enddate\":\"20221030\",\"url\":\"/th?id=OHR.SeaAngel_EN-US5531672696_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.SeaAngel_EN-US5531672696\",\"copyright\":\"Sea angel (© Alexander Semenov Images/Shutterstock)\",\"copyrightlink\":\"https://www.bing.com/search?q=sea+angel+sea+slug&form=hpcapt&filters=HpDate%3a%2220221029_0700%22\",\"title\":\"Angel of the sea\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221029_SeaAngel%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"b3100a7a3441f1d3163adeca96ec68cd\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221030\",\"fullstartdate\":\"202210300700\",\"enddate\":\"20221031\",\"url\":\"/th?id=OHR.SealRiver_EN-US6267835630_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.SealRiver_EN-US6267835630\",\"copyright\":\"Polar bear at the edge of Hudson Bay, Manitoba, Canada (© Sean Crane/Minden Pictures)\",\"copyrightlink\":\"https://www.bing.com/search?q=Polar+bear&form=hpcapt&filters=HpDate%3a%2220221030_0700%22\",\"title\":\"Hunters of the North\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221030_SealRiver%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"d2a3ec330324f26e7af60ab970e66ee8\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221031\",\"fullstartdate\":\"202210310700\",\"enddate\":\"20221101\",\"url\":\"/th?id=OHR.WychwoodForest_EN-US6378774990_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.WychwoodForest_EN-US6378774990\",\"copyright\":\"Trees in Wychwood Forest near Chipping Norton, Oxfordshire, England (© Frederick Ardley/Getty Images)\",\"copyrightlink\":\"https://www.bing.com/search?q=halloween&form=hpcapt&filters=HpDate%3a%2220221031_0700%22\",\"title\":\"Who's in this creepy copse?\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221031_WychwoodForest%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"eee6f5d96deacb724d63cce34bda2026\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]},{\"startdate\":\"20221101\",\"fullstartdate\":\"202211010700\",\"enddate\":\"20221102\",\"url\":\"/th?id=OHR.Calacas_EN-US6430903741_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp\",\"urlbase\":\"/th?id=OHR.Calacas_EN-US6430903741\",\"copyright\":\"Skeleton figures (calacas) dressed up for Día de los Muertos celebrations in Mexico (© Amelia Fuentes Marin/Getty Images)\",\"copyrightlink\":\"https://www.bing.com/search?q=D%C3%ADa+de+los+Muertos&form=hpcapt&filters=HpDate%3a%2220221101_0700%22\",\"title\":\"What are they celebrating?\",\"quiz\":\"/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20221101_Calacas%22&FORM=HPQUIZ\",\"wp\":true,\"hsh\":\"c6e3d1c0e3c236a1644dbc8feb96dff9\",\"drk\":1,\"top\":1,\"bot\":1,\"hs\":[]}]"
+download-folder='~/Pictures/BingWallpaper/'
+hide=false
+icon-name='bing-symbolic'
+market='en-US'
+selected-image='current'
+set-background=false
+state='{"maxlongdate":202211010700,"title":"Skeleton figuresdressed up for Día de los Muertos celebrations in Mexico","explanation":"Bing Wallpaper of the Day for 2022-10-31","copyright":"calacas","longstartdate":"202211010700","imageinfolink":"https://www.bing.com/search?q=D%C3%ADa+de+los+Muertos&form=hpcapt&filters=HpDate%3a%2220221101_0700%22","imageURL":"https://www.bing.com/th?id=OHR.Calacas_EN-US6430903741_UHD.jpg","filename":"/home/oswaldoa/Pictures/BingWallpaper/20221101-Calacas_EN-US6430903741_UHD.jpg"}'
+
+[org/gnome/shell/extensions/materialshell/theme]
+blur-background=true
+clock-app-launcher=true
+clock-horizontal=false
+panel-icon-color=false
+panel-opacity=75
+panel-size=48
+surface-opacity=80
+
+[org/gnome/shell/extensions/materialshell/tweaks]
+cycle-through-windows=true
+cycle-through-workspaces=true
+
+[org/gnome/shell/extensions/user-theme]
+name=''
+
+[org/gnome/shell/keybindings]
+switch-to-application-1=['']
+switch-to-application-2=['']
+switch-to-application-3=['']
+switch-to-application-4=['']
+switch-to-application-5=['']
+switch-to-application-6=['']
+switch-to-application-7=['']
+switch-to-application-8=['']
+switch-to-application-9=['']
+toggle-application-view=['']
+toggle-overview=['']
+
+[org/gnome/shell/weather]
+automatic-location=true
+locations=@av []
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1667969405
+first-run=false
+install-timestamp=int64 1665279933
+online-updates-timestamp=int64 1667321623
+update-notification-timestamp=int64 1667321623
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-transparency-percent=27
+default-size-columns=120
+default-size-rows=30
+font='Victor Mono 12'
+use-system-font=false
+use-transparent-background=true
+visible-name='Wilferik'
+
+[org/gnome/tweaks]
+show-extensions-notice=false
+
+[org/gtk/gtk4/settings/color-chooser]
+custom-colors=[(0.24705882370471954, 0.31764706969261169, 0.70980393886566162, 1.0)]
+selected-color=(true, 0.24705882370471954, 0.31764706969261169, 0.70980393886566162, 1.0)
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=170
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(887, 374)
+
+[org/gtk/settings/file-chooser]
+clock-format='12h'
+
+[system/proxy]
+mode='none'
